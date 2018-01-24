@@ -6,11 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/_Project/EddieMalou/_Scenes/Launcher.unity
-    guid: 35fbef71921917f439350379926d4eb4
+    path: Assets/_Project/Goku/_Scenes/LauncherGoku.unity
+    guid: f74bca3a913b155419bda3a85d8aaf27
   - enabled: 1
-    path: Assets/_Project/EddieMalou/_Scenes/OfflineScene.unity
-    guid: ab7a1e7ca85527b4794086cb0da9648e
-  - enabled: 1
-    path: Assets/_Project/EddieMalou/_Scenes/OnlineScene.unity
-    guid: eb754c53439460b4e8a7963ee556c3e4
+    path: Assets/_Project/Goku/_Scenes/Goku.unity
+    guid: 5a6702e42fe2dfa4e8cc5c4f817f47bc
