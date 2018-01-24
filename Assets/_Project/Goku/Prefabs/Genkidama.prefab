@@ -22,6 +22,8 @@ GameObject:
   - component: {fileID: 33939157655238530}
   - component: {fileID: 135997345368312764}
   - component: {fileID: 23890008425422272}
+  - component: {fileID: 114824572799846588}
+  - component: {fileID: 114704226732216702}
   m_Layer: 0
   m_Name: Genkidama
   m_TagString: Untagged
@@ -83,6 +85,51 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1379079567577068}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &114704226732216702
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1379079567577068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 094462e567772104299f78392812c1b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_vect3: {x: 1, y: 1, z: 1}
+  m_gameObjectToScale: {fileID: 4378727244831116}
+--- !u!114 &114824572799846588
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1379079567577068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: 870353891bb340e2b2a9c8707e7419ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 33
+    i1: 38
+    i2: 145
+    i3: 122
+    i4: 202
+    i5: 160
+    i6: 189
+    i7: 196
+    i8: 25
+    i9: 121
+    i10: 67
+    i11: 47
+    i12: 159
+    i13: 237
+    i14: 210
+    i15: 90
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
 --- !u!135 &135997345368312764
 SphereCollider:
   m_ObjectHideFlags: 1

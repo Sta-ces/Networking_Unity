@@ -7,7 +7,7 @@ public class SyncPlayersOnline : MonoBehaviour {
 
     public SyncPlayerInformations[] players;
     public Text m_displayPlayers;
-    public Transform m_gameObjectToScale;
+    public static int m_totalClickPlayers = 0;
 
     public void Start()
     {
@@ -21,10 +21,11 @@ public class SyncPlayersOnline : MonoBehaviour {
 
         if (players.Length > 0)
         {
-            foreach(SyncPlayerInformations player in players)
+            m_totalClickPlayers = 0;
+            foreach (SyncPlayerInformations player in players)
             {
-
                 playersName += player.m_name + "\n";
+                m_totalClickPlayers += player.m_numberOfClick;
             }
         }
         else
@@ -33,12 +34,16 @@ public class SyncPlayersOnline : MonoBehaviour {
         }
 
         m_displayPlayers.text = playersName;
-
-        ScalingGenkidama(players.Length);
     }
 
-    public void ScalingGenkidama(float numPlayers)
+    /*public int GetTotalClickPlayers()
     {
-        m_gameObjectToScale.localScale = Vector3.one * (numPlayers * .5f);
-    }
+        int totalClickPlayers = 0;
+        foreach (SyncPlayerInformations player in players)
+        {
+            totalClickPlayers += player.m_numberOfClick;
+            Debug.Log(totalClickPlayers);
+        }
+        return totalClickPlayers;
+    }*/
 }

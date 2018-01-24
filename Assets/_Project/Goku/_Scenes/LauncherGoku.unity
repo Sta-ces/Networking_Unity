@@ -252,7 +252,8 @@ MonoBehaviour:
   m_PlayerSpawnMethod: 0
   m_OfflineScene: LauncherGoku
   m_OnlineScene: Goku
-  m_SpawnPrefabs: []
+  m_SpawnPrefabs:
+  - {fileID: 1379079567577068, guid: 2126917acaa0bdc41979432f9fedd25a, type: 2}
   m_CustomConfig: 0
   m_MaxConnections: 4
   m_ConnectionConfig:
